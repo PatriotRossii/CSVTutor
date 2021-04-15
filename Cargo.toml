@@ -1,0 +1,20 @@
+[package]
+name = "csvtutor"
+version = "0.1.0"
+authors = ["PatriotRossii <patriotrossii2019@mail.ru>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1"
+serde = "1"
+serde_derive = "1"
+
+[[bin]]
+name = "reading"
+path = "src/reading.rs"
+
+[[bin]]
+name = "writing"
+path = "src/writing.rs"
